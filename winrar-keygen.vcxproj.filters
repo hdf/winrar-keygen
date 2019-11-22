@@ -7,7 +7,7 @@
     </Filter>
     <Filter Include="头文件">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
     <Filter Include="资源文件">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
@@ -18,48 +18,31 @@
     <ClCompile Include="_tmain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SHA1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="math_functions\mb_div_x_1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GaloisField$2$15.hpp">
+    <ClInclude Include="GaloisField.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="GaloisField$2$15$17.hpp">
+    <ClInclude Include="EllipticCurveGF2m.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ecCurveOverGF$2$15$17.hpp">
+    <ClInclude Include="Hasher.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SHA1.hpp">
+    <ClInclude Include="HasherCrc32Traits.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="math_functions\mb_add_x.hpp">
+    <ClInclude Include="HasherSha1Traits.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="math_functions\mb_mul_x.hpp">
+    <ClInclude Include="BigInteger.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="math_functions\mb_sub_x.hpp">
+    <ClInclude Include="WinRarKeygen.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="math_functions\mb_div_x.hpp">
+    <ClInclude Include="WinRarConfig.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="math_functions\mb_cmp_x.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <MASM Include="math_functions\mb_div_x_0.asm">
-      <Filter>源文件</Filter>
-    </MASM>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" />
   </ItemGroup>
 </Project>
